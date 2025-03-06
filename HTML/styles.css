@@ -1,0 +1,19 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: red;
+}
+.user-card{
+       background-color: rgb(141,197,216);
+       width: 180px;
+       height:180px; 
+       display:inline-block;
+       margin:5px;
+       border: solid 1px;
+       padding: 5px;
+       box-sizing: border-box;
+    }
+.user-card.active{
+    background-color: lightsalmon;
+}
